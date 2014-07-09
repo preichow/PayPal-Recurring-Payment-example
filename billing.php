@@ -1,5 +1,6 @@
 <?php
-
+// Note: for this to work, you must be  enrolled in Payments Pro.  Payments Standard won't work with this.
+//  i experienced problems with the code transferringthe payment total tothe api call....had to hardcodethevaraible.
 require_once ("paypalfunctions.php");
 
 if ( $PaymentOption == "PayPal")
